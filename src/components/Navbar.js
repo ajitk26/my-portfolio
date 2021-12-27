@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../ajit_logo.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const Navbar = () => {
