@@ -80,11 +80,28 @@ nav ul li{
 
 }
 
-/*************PARTICLES******************/
+/************************ABOUT********/
+.photo-wrap {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border:1px solid red
+}
 
-.tsparticles-canvas-el{
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  z-index:1;
+.about-heading{
+  color: red;
+}
+
+
+
+
+/**************PROJECTS*****/
+
+.d-flex{
+  color: red;
 }
