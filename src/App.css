@@ -13,7 +13,8 @@ nav{
 }
 
 .logo{
-  width:9.375rem;
+  width:5.375rem;
+  height: 4rem;
 }
 
 /*******************************MENU LINKS********/
@@ -44,13 +45,14 @@ nav ul li{
 }
 /*******************************HEADER**********************/
 
-.wrapper {
+.head_wrapper {
   position: relative;
   background: url(header_background.jpg) no-repeat;
   background-size:cover; 
   background-position: center;
   height:100vh;
   padding: 7.5rem 0rem;
+ 
 }
 
 .info {
@@ -63,7 +65,7 @@ nav ul li{
   bottom: 50%;
   font-family: "Montserrat" sans-serif;
   font-size: 3.375rem;
-  font-weight: 750;
+  font-weight: 800;
   
 }
 
@@ -95,6 +97,7 @@ nav ul li{
 
 .about-heading{
   color: red;
+  font-weight: 600;
 }
 
 
@@ -102,6 +105,32 @@ nav ul li{
 
 /**************PROJECTS*****/
 
-.d-flex{
+.h1_color{
   color: red;
+  font-weight: 600;
+}
+
+.card-title{
+  color:red;
+  font-weight: 850;
+}
+.card-img-top{
+  border-radius: 1rem;
+  transition: 5s;
+}
+
+
+/*********************FOOTER**************************/
+
+.footer_img{
+  width:5.375rem;
+  height: 4rem;
+  
+}
+.copyright{
+  font-size: 1rem;
+  font-weight: 200;
+  color: black;
+  align-items: right;
+
 }

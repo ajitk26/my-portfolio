@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <div className="container">
           <div className = "d-flex justify-content-center my-5">
-              <h1>LATEST PROJECTS</h1>
+              <h1 className="h1_color">LATEST PROJECTS</h1>
           </div>
           <div className="row row-cols-1 row-cols-md-3 g-4">
             <div className="col">
