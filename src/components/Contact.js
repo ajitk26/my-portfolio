@@ -30,7 +30,7 @@ function Contact() {
     setState({ ...state, [name]: value });
   };
   return (
-    <section className="contact-section">
+    <section id="contacts"className="contact-section">
       <div className="container">
         <ToastContainer position="top-center" />
         <div className="row justify-content-center">

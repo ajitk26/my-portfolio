@@ -3,7 +3,7 @@ import footerImg from "../logo1.png";
 function Footer() {
   return (
     <div
-      className="footer d__flex align__items__center justify__content__space__between pz-10"
+      className="footer"
       style={{ padding: "10px 20px", zIndex: "100" }}
     >
       <img src={footerImg} alt="footer_img" className="footer_img " />

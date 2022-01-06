@@ -22,7 +22,7 @@ function About(){
                         
                     </p>
                     <div>
-                       <a href="#"><button type="button" className="btn btn-primary">DOWNLOAD CV</button></a>
+                       <a href="https://drive.google.com/uc?export=download&id=1Yby6htN6kaecqpugEIATOckyzwrYy-8Q"><button type="button" className="btn btn-primary">DOWNLOAD CV</button></a>
                     </div>                    
 
 

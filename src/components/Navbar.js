@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../logo1.png";
+import {Link} from "react-scroll";
 
 
 const Navbar = () => {
@@ -13,16 +14,16 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Home</a>
+                <Link smooth = {true} to="home"className="nav-link" duration={500} href="#">HOME</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">ABOUT ME</a>
+                <Link smooth = {true} to="about"className="nav-link" duration={500} href="#">ABOUT</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">CONTACTS</a>
+                <Link smooth = {true} to="projects"className="nav-link" duration={500} href="#">PROJECTS</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">PROJECTS</a>
+                <Link smooth = {true} to="contacts"className="nav-link" duration={500} href="#">CONTACTS</Link>
               </li>
             </ul>
           </div>
